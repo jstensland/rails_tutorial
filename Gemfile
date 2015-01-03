@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Add bootstrap to rails
+gem 'bootstrap-sass',       '3.2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0.rc3'
