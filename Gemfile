@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+#bcyrpt-ruby is added for password usage with user
+gem 'bcrypt',                '3.1.7'
 
 # Add bootstrap to rails
 gem 'bootstrap-sass',       '3.2.0.0'
