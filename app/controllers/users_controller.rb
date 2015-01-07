@@ -12,6 +12,7 @@ class UsersController < ApplicationController
     @user = User.new(user_params)    # Not the final implementation!
     if @user.save
       log_in @user
+      #this is equivalent to redirect_to user_url(@user) in Rails
       flash[:success] = "Welcome to the Sample App!"
       #this is equivalent to redirect_to user_url(@user) in Rails
       redirect_to @user #sends you to your profile page if you sign up

@@ -186,7 +186,9 @@ input {
   .form-control {
     color: $state-danger-text;
   }
-  
+}
+
+
 .checkbox {
   margin-top: -10px;
   margin-bottom: 10px;
@@ -196,16 +198,8 @@ input {
   }
 }
 
-.checkbox input[type="checkbox"],
-.checkbox-inline input[type="checkbox"] {
-  position: absolute;
-  margin-left: 20px;
-  margin-top: 4px \9;
-}
 
 #session_remember_me {
   width: auto;
   margin-left: 0;
-}
-
 }

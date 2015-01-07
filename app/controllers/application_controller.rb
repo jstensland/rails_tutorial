@@ -5,6 +5,5 @@ class ApplicationController < ActionController::Base
   
   #This includes our helper in ApplicationController, 
   #making it available in all controllers
-  include SessionsHelper 
-  
+  include SessionsHelper
 end
