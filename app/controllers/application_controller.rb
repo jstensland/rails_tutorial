@@ -3,8 +3,8 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
   
-  def hello
-    render text: 'hello world'
-  end
+  #This includes our helper in ApplicationController, 
+  #making it available in all controllers
+  include SessionsHelper 
   
 end
