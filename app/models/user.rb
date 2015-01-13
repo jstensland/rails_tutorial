@@ -6,8 +6,8 @@ class User < ActiveRecord::Base
   validates :email, presence: true, length: { maximum: 255 },
                     format: { with: VALID_EMAIL_REGEX },
                     uniqueness: { case_sensitive: false }
-  has_secure_password
-  validates :password, length: { minimum: 6 }
+  has_secure_password #requires non-blank on object creation, and a bunch of other stuff
+  validates :password, length: { minimum: 6 }, allow_blank: true #blank allowed for updates to not change it
 
   # Returns the hash digest of the given string.
   def User.digest(string)
