@@ -1,0 +1,6 @@
+Bugs and issues
+==================
+
+- Do Chapter 9 exercises, which include figuring out testing
+- figure out why Sass is not working with Heroku, and/or deploy somewhere else
+- 
