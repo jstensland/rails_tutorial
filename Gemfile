@@ -1,5 +1,10 @@
 source 'https://rubygems.org'
 
+#used for image upload and resizing
+gem 'carrierwave',             '0.10.0'
+gem 'mini_magick',             '3.8.0'
+gem 'fog',                     '1.23.0'
+
 #bcyrpt-ruby is added for password usage with user
 gem 'bcrypt',                '3.1.7'
 
