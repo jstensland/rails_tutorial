@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # adding ruby version in hopes of fixing deployment to Heroku
-gem 'ruby', '2.1.4p265'
+ruby '2.1.4'
 
 #used for image upload and resizing
 gem 'carrierwave',             '0.10.0'
