@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# adding ruby version in hopes of fixing deployment to Heroku
+gem 'ruby', '2.1.4p265'
+
 #used for image upload and resizing
 gem 'carrierwave',             '0.10.0'
 gem 'mini_magick',             '3.8.0'
@@ -23,10 +26,13 @@ gem 'bootstrap-will_paginate', '0.0.10'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '5.0.0.beta1'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '2.5.3'
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '4.1.0'
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
